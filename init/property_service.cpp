@@ -1246,7 +1246,6 @@ static void SetSafetyNetProps() {
         {"ro.is_ever_orange", "0"},
         {"ro.secureboot.devicelock", "1"},
         {"ro.secureboot.lockstate", "locked"},
-        {"init.svc.adbd", "stopped"},
     };
 
     for (const auto& [name, value] : props) {
